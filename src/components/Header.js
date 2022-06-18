@@ -20,7 +20,7 @@ export default function Header() {
                 <Text fontSize="5xl" fontWeight="semibold">Hi, I am</Text>
                 <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600) " bgClip="text" >Manish Rawat</Text>
                 <Text color={isDark ? "gray.200" : "gray.400"} fontSize="2xl" > A UI/UX Designer, Frontend Web Developer and Freelancer  </Text>
-                <Button mt={8} color="blue.300" onClick={() => { window.open("mailto:manishrawat1186@gamil.com") }} >Hire me</Button>
+                <Button fontSize="xl" mt={8} color="blue.300" onClick={() => { window.open("mailto:manishrawat1186@gamil.com") }} >Hire me</Button>
             </Box>
             <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
             mb={isNotSmallerScreen ? "0" : "12"} borderRadius= 'full'
