@@ -18,7 +18,7 @@ export default function Social() {
       </Box>
       <Box alignSelf="center" px="16" py="20" >
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={2}>
-          <Flex rounded="xl" direction="column" mt={2} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
+          <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
             <Icon as={DiGithubAlt} color="white" h="24" w="24" p="4" />
             <Text
             as="button"
