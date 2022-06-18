@@ -1,5 +1,6 @@
 import { Box, Circle, Flex, Stack, useColorMode, useMediaQuery , Text, Button, Image } from '@chakra-ui/react'
 import React from 'react'
+import Manish2 from './ManishNew.png'
 
 export default function Header() {
 
@@ -18,13 +19,13 @@ export default function Header() {
             <Box mt={isNotSmallerScreen ? "0" :16} align= "flex-start">
                 <Text fontSize="5xl" fontWeight="semibold">Hii , I am</Text>
                 <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600) " bgClip="text" >Manish Rawat</Text>
-                <Text color={isDark ? "gray.200" : "gray.400"}>2nd year Student of NIT SRINAGAR, frontend web devloper, React.js, next.js, Blogger ,firebase.   </Text>
-                <Button mt={8} color="blue.300" onClick={() => { window.open("mailto:manishrawat1186@gamil.com") }} >Hear me</Button>
+                <Text color={isDark ? "gray.200" : "gray.400"} fontSize="2xl" > A Ui/UX Designer, Frontend web devloper and Freelencer  </Text>
+                <Button mt={8} color="blue.300" onClick={() => { window.open("mailto:manishrawat1186@gamil.com") }} >Hire me</Button>
             </Box>
             <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
             mb={isNotSmallerScreen ? "0" : "12"} borderRadius= 'full'
             backgroundColor= "transparent" boxShadow="lg"
-            boxSize="300px" src="https://avatars.githubusercontent.com/u/95873746?v=4" />
+            boxSize="300px" src={Manish2} />
         </Flex>
     </Stack>
   )
